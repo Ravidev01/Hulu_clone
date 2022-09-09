@@ -19,7 +19,14 @@
     transition: transform 200ms ease-in-out;
 
 }
+.nav h2::after{
+    text-decoration: underline;
+}
 .nav h2:hover {
     opacity: 1;
     transform: scale(1.2);
+    /* text-decoration-line: underline; */
+    /* text-decoration-thickness: 1px; */
+    /* text-decoration: underline; */
+
 }
